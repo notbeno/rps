@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RPS Fighting Game</title>
+</head>
+<body>
+    <div id="game-container">
+        <div id="player" class="fighter">
+            <h2>Player</h2>
+            <div id="player-health"></div>
+        </div>
+        <div id="ai" class="fighter">
+            <h2>AI</h2>
+            <div id="ai-health"></div>
+        </div>
+        <div id="result"></div>
+        <div id="choices">
+            <button onclick="makeChoice('rock')">Rock</button>
+            <button onclick="makeChoice('paper')">Paper</button>
+            <button onclick="makeChoice('scissors')">Scissors</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
